@@ -1,10 +1,6 @@
 {
   "dependencies": [
     {
-      "name": "@aws/pdk",
-      "type": "build"
-    },
-    {
       "name": "@types/jest",
       "type": "build"
     },
@@ -78,6 +74,10 @@
     {
       "name": "typescript",
       "type": "build"
+    },
+    {
+      "name": "@aws/pdk",
+      "type": "runtime"
     },
     {
       "name": "aws-cdk-lib",
