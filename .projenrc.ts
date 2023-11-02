@@ -8,6 +8,7 @@ const project = new monorepo.MonorepoTsProject({
 });
 
 new AwsCdkTypeScriptApp({
+  devDeps: ["@aws/pdk"],
   parent: project,
   outdir: "packages/infra",
   name: "infra",

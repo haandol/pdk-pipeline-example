@@ -21,6 +21,7 @@
     "watch": "npx projen watch"
   },
   "devDependencies": {
+    "@aws/pdk": "^0.22.30",
     "@types/jest": "^29.5.7",
     "@types/node": "^16",
     "@typescript-eslint/eslint-plugin": "^6",

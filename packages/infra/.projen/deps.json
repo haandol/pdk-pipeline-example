@@ -1,6 +1,10 @@
 {
   "dependencies": [
     {
+      "name": "@aws/pdk",
+      "type": "build"
+    },
+    {
       "name": "@types/jest",
       "type": "build"
     },
