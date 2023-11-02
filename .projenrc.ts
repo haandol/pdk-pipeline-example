@@ -1,5 +1,4 @@
 import { monorepo } from "@aws/pdk";
-import { javascript } from "projen";
 import { AwsCdkTypeScriptApp } from "projen/lib/awscdk";
 
 const project = new monorepo.MonorepoTsProject({
@@ -14,7 +13,6 @@ new AwsCdkTypeScriptApp({
   name: "infra",
   cdkVersion: "2.103.1",
   defaultReleaseBranch: "main",
-  packageManager: javascript.NodePackageManager.NPM,
 });
 
 project.synth();
