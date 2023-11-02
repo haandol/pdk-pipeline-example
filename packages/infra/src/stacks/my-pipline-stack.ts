@@ -15,8 +15,7 @@ export class MyPipelineStack extends Stack {
       synthShellStepPartialProps: {
         commands: [
           'cd packages/infra',
-          'npm clean-install',
-          'npm run build',
+          'yarn install',
           'npx cdk synth',
         ],
       },
